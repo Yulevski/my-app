@@ -1,6 +1,6 @@
 import React, {useEffect,useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './styles/brutalism.css';
+import './styles/brutalismserbia.css';
 import image1 from "./styles/pictures/Brutalist/architecture/Serbia/Belgrade/1.jpg";
 import image2 from "./styles/pictures/Brutalist/architecture/Serbia/Belgrade/2.jpg";
 import image3 from "./styles/pictures/Brutalist/architecture/Serbia/Belgrade/3.JPG";

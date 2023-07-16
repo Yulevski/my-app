@@ -9,7 +9,7 @@
   flex: 1 0 auto;
   margin: 4px; 
   position: relative;
-
+  
 }
 .photo-container1 {
   flex: 1 0 auto;
@@ -80,6 +80,7 @@
   width: 70%;
   max-height: 50%;
   border-radius: 5px;
+  pointer-events: none;
 }
 
 .button-brutalism {
