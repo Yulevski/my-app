@@ -1,0 +1,104 @@
+.brutalist-photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px; 
+}
+
+.photo-container {
+  flex: 1 0 auto;
+  margin: 4px; 
+}
+
+
+.photo {
+  height: 400px;
+  max-width: 800px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Add these styles to brutalism.css */
+.dialogue-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialogue-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enlarged-image {
+  width: 70%;
+  max-height: 50%;
+  border-radius: 5px;
+}
+
+.button-brutalism {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+/* .brutalist-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-container {
+  flex-grow: 1;
+  object-fit: cover;
+  height: 400px;
+  max-width: 800px;
+  margin: 0.2rem;
+  border-radius: 2px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2px;
+} */
+
+
+  /* .brutalist-photos {
+    display: grid;
+    grid-gap: 1em;
+    grid: masonry / repeat(auto-fit, minmax(20em, 1fr));
+  }
+  .photo-container {
+    height: 5em;
+  } */
+  /* .photo-container {
+    width: 100%;
+    height: auto; /* Adjust as needed 
+  }*/
+  
+ /* .photo {
+    flex-grow: 1;
+  object-fit: cover;
+  height: 400px;
+  max-width: 800px;
+  margin: 0.2rem;
+  border-radius: 2px; 
+  } */
