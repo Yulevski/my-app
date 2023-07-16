@@ -13,7 +13,9 @@ import Nature from './components/Nature';
 import Street from './components/Street';
 import Airplanes from './components/Airplanes';
 import Brutalism from './components/Brutalism';
-import BrutalismSerbia from './components/Brutalism_Serbia';
+import BrutalismSerbia from './components/BrutalismSerbia';
+import BrutalismBelgrade from './components/BrutalismBelgrade';
+import BelgradeAirport from './components/BelgradeAirport';
 import Injapan from './components/Injapan';
 import Initaly from './components/Initaly';
 
@@ -53,6 +55,8 @@ function App() {
       <Route path="/airplanes" element={<Airplanes />} />
       <Route path="/brutalism" element={<Brutalism />} />
       <Route path="/brutalismserbia" element={<BrutalismSerbia />} />
+      <Route path="/brutalismbelgrade" element={<BrutalismBelgrade />} />
+      <Route path="/belgradeairport" element={<BelgradeAirport />} />
       <Route path="/injapan" element={<Injapan />} />
       <Route path="/initaly" element={<Initaly />} />
     </Routes>
