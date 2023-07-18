@@ -29,7 +29,7 @@ function Architectures() {
       </div>     
         
       <div className='ui-page-main'>
-        <Link className='link' to="/Initaly">
+        <Link className='link' to="/brutalismnovisad">
         <button className='button-main'>Novisad</button>
         <h4 className='button-title-main'>Novisad</h4>
         </Link>

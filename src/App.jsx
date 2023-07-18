@@ -16,6 +16,8 @@ import Brutalism from './components/Brutalism';
 import BrutalismSerbia from './components/BrutalismSerbia';
 import BrutalismBelgrade from './components/BrutalismBelgrade';
 import BelgradeAirport from './components/BelgradeAirport';
+import BrutalismNovisad from './components/BrutalismNovisad';
+import NovisadStation from './components/Novisadstation';
 import Injapan from './components/Injapan';
 import Initaly from './components/Initaly';
 
@@ -57,6 +59,9 @@ function App() {
       <Route path="/brutalismserbia" element={<BrutalismSerbia />} />
       <Route path="/brutalismbelgrade" element={<BrutalismBelgrade />} />
       <Route path="/belgradeairport" element={<BelgradeAirport />} />
+      <Route path="/brutalismnovisad" element={<BrutalismNovisad />} />
+      <Route path="/novisadstation" element={<NovisadStation />} />
+
       <Route path="/injapan" element={<Injapan />} />
       <Route path="/initaly" element={<Initaly />} />
     </Routes>
