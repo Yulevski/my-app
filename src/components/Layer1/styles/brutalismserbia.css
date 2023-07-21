@@ -1,0 +1,148 @@
+.brutalist-photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px; 
+  cursor: pointer;
+}
+
+.photo-container {
+  flex: 1 0 auto;
+  margin: 4px; 
+  position: relative;
+  
+}
+.photo-container1 {
+  flex: 1 0 auto;
+  margin: 4px; 
+  position: relative;
+
+}
+
+
+
+.photo {
+  height: 400px;
+  max-width: 800px;
+  width: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7e7e7e;
+}
+
+.photo-container:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Add these styles to brutalism.css */
+.dialogue-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialogue-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enlarged-image {
+  width: 70%;
+  max-height: 50%;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.button-brutalism {
+  position: static;
+  top: 50px;
+  right: 50px;
+  font-size: large;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+ 
+}
+li {
+  list-style: none;
+}
+
+
+/* .brutalist-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-container {
+  flex-grow: 1;
+  object-fit: cover;
+  height: 400px;
+  max-width: 800px;
+  margin: 0.2rem;
+  border-radius: 2px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2px;
+} */
+
+
+  /* .brutalist-photos {
+    display: grid;
+    grid-gap: 1em;
+    grid: masonry / repeat(auto-fit, minmax(20em, 1fr));
+  }
+  .photo-container {
+    height: 5em;
+  } */
+  /* .photo-container {
+    width: 100%;
+    height: auto; /* Adjust as needed 
+  }*/
+  
+ /* .photo {
+    flex-grow: 1;
+  object-fit: cover;
+  height: 400px;
+  max-width: 800px;
+  margin: 0.2rem;
+  border-radius: 2px; 
+  } */
