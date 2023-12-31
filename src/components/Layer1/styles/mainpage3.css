@@ -65,10 +65,11 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40592_2.jpg');
         background-size: cover; /* Set the image to cover the entire element */
         background-position: center; /* Center the image within the element */
-        color:aliceblue;
+        /* color:aliceblue; */
         cursor: pointer;
         border: none;
         font-size: 4vh;
+        color: rgb(100, 100, 100, 0);
     }
     .button-main3:hover {
         background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('40592_2.jpg');
@@ -85,6 +86,8 @@
         border: none;
         transition: background-position 0.5s;
         font-size: 4vh;
+        color: rgb(100, 100, 100, 0);
+
 }
 .button-main4:hover {
     background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('40591_2.jpg');
