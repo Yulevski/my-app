@@ -1,0 +1,117 @@
+.site-header3 {
+    background-color: #060606;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title-app3 {
+    font-family: 'Zen Font', sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:aliceblue;
+    display: inline-block; /* Ensure title and logo are on the same line */
+  }
+  
+  .nav_wrapper3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color:aliceblue
+
+  }
+  
+  .nav_item3 {
+    display: inline-block;
+    margin-right: 20px;
+    color:aliceblue
+
+  }
+  
+  .nav_item3 a {
+    text-decoration: none;
+    /* color: #333; */
+    color:aliceblue;
+    font-weight: bold;
+  }
+  .logo3 {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the logo and title */
+  }
+
+  /* html, body {
+    height: 100%;
+    margin: 0;
+  } */
+  
+
+  .mainpage-container3 {
+    height: 90vh; /* Adjust the height to 90% to leave 5% space at the top */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-around; /* Distribute items evenly with equal space around them */
+    align-items: center; /* Center items horizontally */
+    font-family: 'Zen Font', sans-serif;
+    background-color: rgb(9, 9, 9);
+}
+
+
+  
+    /* .photo-page-main,.ui-page-main,.design-page-main,.illustration-page-main,.blog-page-main,.app-page-main{
+    width: 40%;
+    height: 40%;
+    vertical-align: middle;
+    text-align: center;
+  
+      } */
+    .button-main3{
+        width: 40vh; /* Adjust width as needed */
+        height: calc((3/ 4) * 40vh); /* Set height to maintain 4:3 aspect ratio */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40592_2.jpg');
+        background-size: cover; /* Set the image to cover the entire element */
+        background-position: center; /* Center the image within the element */
+        color:aliceblue;
+        cursor: pointer;
+        font-size: 4vh;
+    }
+    .button-main4{
+        width: 40vh; /* Adjust width as needed */
+        height: calc((3/ 4) * 40vh); /* Set height to maintain 4:3 aspect ratio */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40591_2.jpg');
+        background-size: cover; /* Set the image to cover the entire element */
+        background-position: center; /* Center the image within the element */
+        color:aliceblue;
+        cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+        font-size: 4vh;
+}
+
+    
+    .button-title-main3{
+      /* font-size: small; */
+      font-family: 'Zen Font', sans-serif;
+      color:aliceblue;
+      font-size: 2vh;     
+    }
+    .photo-page-main3, .blog-page-main3 {
+        width: auto;
+        text-align: center;
+        margin: 2.5vh auto; /* Adjust margin between buttons and to center them horizontally */
+        font-family: 'Zen Font', sans-serif;
+        color:aliceblue;
+          
+    }
+
+  
+  /* link:hover{
+      text-decoration: underline;
+  } */
+  .link3{
+    text-decoration: none;  
+    margin-right:auto;
+    margin-left:auto;
+    height: 100%;
+    width: 100%;
+  
+  
+  
+  }
