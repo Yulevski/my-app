@@ -101,8 +101,8 @@ function UIpage() {
       const img = new Image();
       img.src = enlargedImg;
       const imgAspectRatio = img.width / img.height;
-      const maxWidth = windowSize.width * 0.7;
-      const maxHeight = windowSize.height * 0.9;
+      const maxWidth = windowSize.width * 0.8;
+      const maxHeight = windowSize.height * 0.8;
       
       let width = maxWidth;
       let height = maxWidth / imgAspectRatio;
@@ -115,7 +115,7 @@ function UIpage() {
           height=maxHeight;
           width=maxHeight*imgAspectRatio;
       }
-      if(img.height<img.width){
+      else if(img.height<img.width){
           width=maxWidth;
           height=maxWidth/imgAspectRatio;
       }

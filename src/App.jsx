@@ -1,6 +1,7 @@
 // import react from 'react'
 import { BrowserRouter, Route,Routes} from 'react-router-dom';
-import Mainpage from './components/Layer1/Mainpage';
+// import Mainpage from './components/Layer1/Mainpage';
+import Mainpage3 from './components/Layer1/Mainpage_3';
 import Photopage from './components/Layer2/Photopage';
 import UIpage from './components/Layer2/UIpage';
 import Apppage from './components/Layer2/Apppage';
@@ -44,7 +45,8 @@ function App() {
     {/* <!-- Header End --> */}
 
      <Routes>
-      <Route path="/" element={<Mainpage />} />
+      {/* <Route path="/" element={<Mainpage />} /> */}
+      <Route path="/" element={<Mainpage3 />} />
       <Route path="/photopage" element={<Photopage />} />
       <Route path="/uipage" element={<UIpage />} />
       <Route path="/designpage" element={<Designpage />} />
