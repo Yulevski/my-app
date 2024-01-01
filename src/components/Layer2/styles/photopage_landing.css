@@ -1,0 +1,80 @@
+.site-header3 {
+  background-color: #060606;
+  padding: 20px;
+  text-align: center;
+}
+
+.title-app3 {
+  font-family: 'Zen Font', sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color:aliceblue;
+  display: inline-block; /* Ensure title and logo are on the same line */
+}
+
+.nav_wrapper3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color:aliceblue
+
+}
+
+.nav_item3 {
+  display: inline-block;
+  margin-right: 20px;
+  color:aliceblue;
+  font-size: 1.5vh;
+
+}
+
+.nav_item3 a {
+  text-decoration: none;
+  /* color: #333; */
+  color:aliceblue;
+  font-weight: bold;
+}
+.logo3 {
+  width: 75%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some space between the logo and title */
+}
+
+
+
+.photopage_landing-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 100%;
+}
+
+.button_link_landing{
+  position: relative;
+  vertical-align: middle;
+  width: 33.333333%;
+  height: calc((3/ 4) * 50vh);
+
+}
+
+.button-photopage_landing {
+  width: 100%;
+  height: 100%; 
+  justify-content: center;
+  align-items: center;
+  background-image: url('pictures/40591_2.jpg');
+  background-size: cover; /* This will make the background image cover the entire button area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; 
+  cursor: pointer;
+}
+
+/* Media query for screens smaller than 768px (smartphones) */
+@media (max-width: 767px) {
+  .button_link_landing {
+    width: 100%; /* Set the width to 100% for smartphones */
+    justify-content: center;
+    align-items: center;
+
+  }
+}

@@ -3,6 +3,8 @@ import { BrowserRouter, Route,Routes} from 'react-router-dom';
 // import Mainpage from './components/Layer1/Mainpage';
 import Mainpage3 from './components/Layer1/Mainpage_3';
 import Photopage from './components/Layer2/Photopage';
+import Photopagelanding from './components/Layer2/Photopage_landing';
+
 import UIpage from './components/Layer2/UIpage';
 import Apppage from './components/Layer2/Apppage';
 import Designpage from './components/Layer2/Designpage';
@@ -48,6 +50,9 @@ function App() {
       {/* <Route path="/" element={<Mainpage />} /> */}
       <Route path="/" element={<Mainpage3 />} />
       <Route path="/photopage" element={<Photopage />} />
+      <Route path="/photopage_landing" element={<Photopagelanding />} />
+      <Route path="/nature" element={<Nature />} />
+
       <Route path="/uipage" element={<UIpage />} />
       <Route path="/designpage" element={<Designpage />} />
       <Route path="/apppage" element={<Apppage />} />

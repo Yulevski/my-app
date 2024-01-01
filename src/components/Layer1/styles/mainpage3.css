@@ -24,7 +24,6 @@
     display: inline-block;
     margin-right: 20px;
     color:aliceblue;
-    font-size: 1.5vh;
 
   }
   
@@ -33,6 +32,8 @@
     /* color: #333; */
     color:aliceblue;
     font-weight: bold;
+    font-size: 2.5vh;
+
   }
   .logo3 {
     width: 75%; /* Adjust the width as needed */
@@ -60,8 +61,8 @@
   
       } */
     .button-main3{
-        width: 40vh; /* Adjust width as needed */
-        height: calc((3/ 4) * 40vh); /* Set height to maintain 4:3 aspect ratio */
+        width: 50vh; /* Adjust width as needed */
+        height: calc((3/ 4) * 50vh); /* Set height to maintain 4:3 aspect ratio */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40592_2.jpg');
         background-size: cover; /* Set the image to cover the entire element */
         background-position: center; /* Center the image within the element */
@@ -76,8 +77,8 @@
         color: white; /* Change the text color to white when hovering */
     }
     .button-main4{
-        width: 40vh; /* Adjust width as needed */
-        height: calc((3/ 4) * 40vh); /* Set height to maintain 4:3 aspect ratio */
+        width: 50vh; /* Adjust width as needed */
+        height: calc((3/ 4) * 50vh); /* Set height to maintain 4:3 aspect ratio */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40591_2.jpg');
         background-size: cover; /* Set the image to cover the entire element */
         background-position: center; /* Center the image within the element */
