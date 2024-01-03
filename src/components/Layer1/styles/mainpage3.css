@@ -63,7 +63,7 @@
     .button-main3{
         width: 50vh; /* Adjust width as needed */
         height: calc((3/ 4) * 50vh); /* Set height to maintain 4:3 aspect ratio */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40592_2.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('batch_IMGP6000.JPG');
         background-size: cover; /* Set the image to cover the entire element */
         background-position: center; /* Center the image within the element */
         /* color:aliceblue; */
@@ -73,13 +73,13 @@
         color: rgb(100, 100, 100, 0);
     }
     .button-main3:hover {
-        background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('40592_2.jpg');
+        background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('batch_IMGP6000.JPG');
         color: white; /* Change the text color to white when hovering */
     }
     .button-main4{
         width: 50vh; /* Adjust width as needed */
         height: calc((3/ 4) * 50vh); /* Set height to maintain 4:3 aspect ratio */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('40591_2.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('batch_IMGP4479.jpg');
         background-size: cover; /* Set the image to cover the entire element */
         background-position: center; /* Center the image within the element */
         color:aliceblue;
@@ -91,7 +91,7 @@
 
 }
 .button-main4:hover {
-    background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('40591_2.jpg');
+    background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(100, 100, 100, 0.5)), url('batch_IMGP4479.jpg');
     color: white; /* Change the text color to white when hovering */
 }
 
@@ -99,7 +99,7 @@
     .button-title-main3{
       /* font-size: small; */
       font-family: 'Zen Font', sans-serif;
-      color:aliceblue;
+      color:rgb(132, 132, 132);
       font-size: 2vh;     
     }
     .photo-page-main3, .blog-page-main3 {

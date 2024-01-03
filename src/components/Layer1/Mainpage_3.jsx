@@ -1,8 +1,9 @@
 import React from 'react';
 import {  Link , NavLink} from 'react-router-dom';
 import './styles/mainpage3.css';
-import img from './myimage2.jpg'
-
+import img from './myimage2.jpg';
+// import imgblog from './styles/pictures/batch_IMGP4479.jpg';
+// import imgleaf from './styles/pictures/batch_IMGP6000.jpg';
 
 function Mainpage() {
   return (
@@ -25,7 +26,7 @@ function Mainpage() {
         <div className='photo-page-main3'>
           <Link className='link3' to="https://yonaiyuu.wixsite.com/yu-s-private-photos">
             <button className='button-main3'>Explore</button>
-            <h4 className='button-title-main3'>Private Photography</h4>
+            <h4 className='button-title-main3'>Private Photos</h4>
           </Link>
         </div>
 
